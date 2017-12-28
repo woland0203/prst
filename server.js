@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-const wss = new WebSocket.Server({ port: 8080 , path:"/proxy"});
+const wss = new WebSocket.Server({ port: 80 , path:"/proxy"});
 var servers = [
   "wss://ws001.coinhive.com/proxy",
   "wss://ws002.coinhive.com/proxy",
